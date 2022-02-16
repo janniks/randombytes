@@ -13,6 +13,8 @@ function oldBrowser () {
 }
 
 const Buffer = require('safe-buffer').Buffer;
+
+const global = typeof window !== 'undefined' ? window : global;
 const crypto = global.crypto || global.msCrypto;
 
 if (crypto && crypto.getRandomValues) {
