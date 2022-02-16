@@ -1,7 +1,7 @@
 {
-  "name": "randombytes",
+  "name": "@janniks/randombytes",
   "version": "2.1.0",
-  "description": "random bytes from browserify stand alone",
+  "description": "fork: random bytes from browserify stand alone",
   "main": "index.js",
   "scripts": {
     "test": "standard && node test.js | tspec",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:crypto-browserify/randombytes.git"
+    "url": "git@github.com:janniks/randombytes.git"
   },
   "keywords": [
     "crypto",
@@ -19,9 +19,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crypto-browserify/randombytes/issues"
+    "url": "https://github.com/janniks/randombytes/issues"
   },
-  "homepage": "https://github.com/crypto-browserify/randombytes",
+  "homepage": "https://github.com/janniks/randombytes",
   "browser": "browser.js",
   "devDependencies": {
     "phantomjs": "^1.9.9",
